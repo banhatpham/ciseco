@@ -1,0 +1,37 @@
+.subsub-menu1{
+    display: flex;
+}
+.subsub-menu1 .sub-left{
+    display: flex;
+}
+.subsub-menu1 .sub-right{
+    display: flex;
+}
+.subsub-menu1 .sub-left{
+    width: 60%;
+}
+.subsub-menu1 .sub-right{
+    position: relative;
+    width: 40%;
+    background-color: #98F5FF;
+    border-radius: 10%;
+}
+.sub-right .sub-sub-content{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.sub-right .sub-sub-photo{
+    position: relative;
+    text-align: center;
+}
+.sub-right .sub-sub-photo img{
+    width: 100%;
+}
+.subsub-menu1 ul{
+    display: flex;
+}
+.sub-left .column{
+    padding: 10px 15px;
+    margin-right: 70px;
+}
