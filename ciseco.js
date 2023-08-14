@@ -150,4 +150,172 @@ jQuery(document).ready(function ($) {
       });
     }
   });
+
+
+  // discover more 
+
+  const config = {
+    type: 'carousel',
+    startAt: 0,
+    perView: 3,
+    gap: 32,
+    // breakpoints: {
+    //   1280: {
+    //     perView: 3,
+    //   },
+    //   1024: {
+    //     perView: 2,
+    //   },
+    //   768: {
+    //     perView: 1,
+    //   }
+    // }
+  }
+  new Glide('.glide', config).mount()
+
+  // product card slider 
+
+  const productCards = document.querySelector('.product-cards');
+
+if (productCards) {
+  const productCardsSlider = new Swiper('.product-cards__slider', {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '.product-cards__next',
+      prevEl: '.product-cards__prev',
+    },
+  })
+}
+
+// example 2
+
+// const porductCards = document.querySelector('.product-cards__slider');
+
+// if (porductCards) {
+//   const productCardsSlider = new Swiper(porductCards, {
+//     slidesPerView: 3,
+//     spaceBetween: 30,
+//     on: {
+//       init: function () {
+//         const activeSlide = porductCards.querySelector('.swiper-slide-active');
+
+//         const nextActiveSlide = activeSlide.nextElementSibling;
+
+//         const nextNextActiveSlide = nextActiveSlide.nextElementSibling;
+
+//         activeSlide.classList.add('slider-visible');
+//         nextActiveSlide.classList.add('slider-visible');
+//         nextNextActiveSlide.classList.add('slider-visible');
+//       },
+//     },
+//     navigation: {
+//       nextEl: '.product-cards__next',
+//       prevEl: '.product-cards__prev',
+//     },
+//   });
   
+//   document.querySelector('.product-cards__prev').addEventListener('click', () => {
+//     const activeSlide = porductCards.querySelector('.swiper-slide-next');
+
+//     document.querySelectorAll('.product-cards__slider .swiper-slide').forEach(el => {
+//       el.classList.remove('slider-visible');
+//     });
+
+//     if (activeSlide.previousElementSibling) {
+//       const nextActiveSlide = activeSlide.previousElementSibling;
+//       activeSlide.classList.add('slider-visible');
+//       nextActiveSlide.classList.add('slider-visible');
+//       activeSlide.nextElementSibling.classList.add('slider-visible');
+//     }
+//   });
+  
+//   document.querySelector('.product-cards__next').addEventListener('click', () => {
+//     const activeSlide = porductCards.querySelector('.swiper-slide-active');
+
+//     const nextActiveSlide = activeSlide.nextElementSibling;
+
+//     const nextNextActiveSlide = nextActiveSlide.nextElementSibling;
+
+//     document.querySelectorAll('.product-cards__slider .swiper-slide').forEach(el => {
+//       el.classList.remove('slider-visible');
+//     });
+
+//     activeSlide.classList.add('slider-visible');
+//     nextActiveSlide.classList.add('slider-visible');
+//     nextNextActiveSlide.classList.add('slider-visible');
+//   });
+// }
+
+// add to wishlist button
+const btns = document.querySelectorAll('.wishlist-badge__btn');
+
+btns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const isActive = btn.classList.contains('wishlist-badge__btn--active');
+    btn.classList.toggle('wishlist-badge__btn--active');
+    btn.title = isActive ? 'Add to wishlist' : 'Remove from wishlist';
+  });
+});
+
+// explore
+
+$(document).ready(function(){
+  $('ul li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
+});
+});
+
+// chosen by our expert 
+$('.product-carousel').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  nextArrow: '<i class="arrow right">',
+  prevArrow: '<i class="arrow left">',
+  infinite: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+// good news from far away
+
+const swiper = new Swiper(".swiper", {
+  loop: true,
+  // ページネーション
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  // 前後の矢印
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/css/glide.core.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css'>
     <link rel="stylesheet" href="ciseco.css">
     <title>Document</title>
 </head>
@@ -96,6 +99,9 @@
         </section>
     </header>
     <main>
+
+        <!-- auto slider  -->
+
         <div class="container">
             <div class="slider" id="slider"  data-width="100">
                 <button class="control_next">&rarr;</button>
@@ -117,46 +123,1199 @@
                             </div>
                         </li>
                         <li>
-                            <div class="slide" style="background: #02517a" >
+                            <div class="slide" style="background: #FDF5E6" >
                                 <div class="shadow">
-                                        <div class="teaser">
-                                    
-                                        <h3>Fullscreen Slider</h3>
-                                        <h2>Slide 2</h2>
-                                        
-                                        <p>Slide #2 of 3</p>
-                                        
-                                        
+                                    <div class="teaser">
+                                        <p>In this season, Find the best</p>                                     
+                                        <h2>Exclusive collection for everyone</h2>
+                                        <div class="btn btn-primary"><a href="#"><span>Explore now </span><i class="fa-solid fa-magnifying-glass"></i></a></div>
                                     </div> 
+                                    <div class="shadow-photo">
+                                        <img src="images/image.webp" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="slide" style="background: #c4af03" >
+                            <div class="slide" style="background: #FDF5E6" >
                                 <div class="shadow">
-                                            <div class="teaser">
-                                    
-                                        <h3>Fullscreen Slider</h3>
-                                        <h2>Slide 3</h2>
-                                        
-                                        <p>Slide #3 of 3</p>
-                                        
-                                        
+                                    <div class="teaser">
+                                        <p>In this season, Find the best</p>                                     
+                                        <h2>Exclusive collection for everyone</h2>
+                                        <div class="btn btn-primary"><a href="#"><span>Explore now </span><i class="fa-solid fa-magnifying-glass"></i></a></div>
                                     </div> 
+                                    <div class="shadow-photo">
+                                        <img src="images/image (43).webp" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </li>
                     </ul>
-                    <div class="progress">
-                        <div class="bar"></div>
-                    </div>
+                        <div class="progress">
+                            <div class="bar"></div>
+                        </div>
             
                 </div>
 
 
         </div>
+
+        <!-- discover more -->
+        <div class="container">
+            <h1 class="discover-title">Discover more. <span>Good things are waiting for you</span> </h1>
+            <div class="bg-cover" >
+                <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="discover-card" >
+                          <span class="">
+                            <p>Explore new arrival</p>
+                            <h2>Shop the latest from top brands</h2>
+                            <div class="btn"><a href="#">Show me all</a></div>
+                          </span>
+                          <span class="">
+                            <img src="images/Discover/image (1).webp" alt="">
+                          </span>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="discover-card" >
+                          <span class="">
+                            <p>Digital gift cards</p>
+                            <h2>Give the gift of choice</h2>
+                            <div class="btn"><a href="#">Show me all</a></div>
+                          </span>
+                          <span class="">
+                            <img src="images/Discover/image.webp" alt="">
+                          </span>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="discover-card" >
+                          <span class="">
+                            <p>Sale collection</p>
+                            <h2>Up to 80% off retail</h2>
+                            <div class="btn"><a href="#">Show me all</a></div>
+                          </span>
+                          <span class="">
+                            <img src="images/Discover/image (23).webp" alt="">
+                          </span>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="discover-card" >
+                          <span class="">
+                            <p>Sale collection</p>
+                            <h2>Up to 80% off retail</h2>
+                            <div class="btn"><a href="#">Show me all</a></div>
+                          </span>
+                          <span class="">
+                            <img src="images/Discover/image (2).webp" alt="">
+                          </span>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left left-4" data-glide-dir="<">
+                    <div class="h-9 w-9 bg-gray-800 rounded-xl flex justify-center items-center my-auto hover:bg-red-200 duration-300 ease-in-out">
+                      <i class="fas fa-angle-left text-red-200 text-2xl"></i>
+                    </div>
+                  </button>
+                  <button class="glide__arrow glide__arrow--right right-4" data-glide-dir=">">
+                    <div class="h-9 w-9 bg-gray-800 rounded-xl flex justify-center items-center my-auto hover:bg-red-200 duration-300 ease-in-out">
+                      <i class="fas fa-angle-right text-red-200 text-2xl"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              </div>
+        </div>
+
+        <!-- product card slider  -->
+        <section class="product-cards">
+            <div class="container">
+              <div class="product-cards__top">
+                <h2 class="product-cards__title">New Arrivals. REY backpacks & bags</h2>
+                <div class="slider-nav product-cards__slider-nav">
+                  <button class="btn-reset slider-btn slider-nav__btn product-cards__prev">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 17.2071C8.81658 17.5976 8.18342 17.5976 7.79289 17.2071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929L7.79289 6.79289C8.18342 6.40237 8.81658 6.40237 9.20711 6.79289C9.59763 7.18342 9.59763 7.81658 9.20711 8.20711L6.41421 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L6.41421 13L9.20711 15.7929C9.59763 16.1834 9.59763 16.8166 9.20711 17.2071Z" fill="#424551"/>
+                    </svg>
+                  </button>
+                  <button class="btn-reset slider-btn slider-nav__btn product-cards__next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="product-cards__slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <article class="product-card product-card--large">
+                      <div class="product-card__top">
+                        <div class="product-card__image product-card__image--large">
+                          <img src="images/product/image.webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+                        </div>
+                        <span class="sale-badge">-50%</span>
+                        <fieldset class="rating">
+                          <div class="rating__group">
+                            <input type="radio" class="rating__star" name="product-rating" value="1" aria-label="one star" checked>
+                            <input type="radio" class="rating__star" name="product-rating" value="2" aria-label="two star">
+                            <input type="radio" class="rating__star" name="product-rating" value="3" aria-label="three star">
+                            <input type="radio" class="rating__star" name="product-rating" value="4" aria-label="four star">
+                            <input type="radio" class="rating__star" name="product-rating" value="5" aria-label="five star">
+                          </div>
+                        </fieldset>
+                        <div class="wishlist-badge">
+                          <butto class="btn-reset wishlist-badge__btn" title="Add to wishlist"></butto>
+                        </div>
+                      </div>
+                      <div class="product-card__info">
+                        <h3 class="product-card__title"><a href="#">Leather Gloves</a></h3>
+                        <div class="product-card__price price">
+                          <span class="price__current price__current--small">$30</span>
+                          <span class="price__old price__old--small"><i class="fa-solid fa-star"></i> 4.9 (98 reviews)</span>
+                        </div>
+                        <div class="product-card__props">
+                          <div class="product-card__selects">
+                            <div class="size">
+                              <ul class="list-reset size__list">
+                                <li class="size__item">
+                                  <input id="xs-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="xs-size" class="size__field">xs</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="s-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="s-size" class="size__field">s</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="m-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="m-size" class="size__field">m</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="l-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="l-size" class="size__field">l</label>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="color">
+                              <ul class="list-reset color__list">
+                                <li class="color__item">
+                                  <input id="red" type="radio" name="color" class="input-reset color__input">
+                                  <label for="red" class="color__field"><span class="color__circle" style="background-color: #ea4335;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="green" type="radio" name="color" class="input-reset color__input">
+                                  <label for="green" class="color__field"><span class="color__circle" style="background-color: #34a853;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="blue" type="radio" name="color" class="input-reset color__input">
+                                  <label for="blue" class="color__field"><span class="color__circle" style="background-color: #4285f4;"></span></label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <button class="btn-reset product-card__btn">
+                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5944 2.0047C2.52929 1.99979 2.43894 1.99935 2.2695 1.99935H1.16667C0.798477 1.99935 0.5 1.70088 0.5 1.33269C0.5 0.964496 0.798477 0.666019 1.16667 0.666019H2.2695C2.27578 0.666019 2.28207 0.666018 2.28835 0.666017C2.43146 0.666 2.57315 0.665982 2.69458 0.675131C2.82971 0.685313 2.9867 0.709227 3.14911 0.781673C3.37767 0.883629 3.57293 1.04786 3.71254 1.25557C3.81174 1.40317 3.8622 1.55374 3.89538 1.68512C3.9252 1.80319 3.94946 1.94279 3.97397 2.08378C3.97504 2.08997 3.97612 2.09617 3.9772 2.10236L4.13605 3.01574L12.812 3.27256C13.152 3.28261 13.4458 3.2913 13.6878 3.31795C13.9436 3.34612 14.1971 3.39908 14.4404 3.52867C14.809 3.72503 15.1068 4.03184 15.2922 4.40607C15.4145 4.65304 15.46 4.90806 15.4805 5.16454C15.5 5.40719 15.5 5.70112 15.5 6.04126V6.09042C15.5 6.41007 15.5 6.68734 15.4821 6.91727C15.4631 7.16111 15.4213 7.4033 15.3095 7.64061C15.1395 8.00182 14.8653 8.30387 14.5221 8.5079C14.2967 8.64195 14.0597 8.70696 13.8188 8.74935C13.5917 8.78932 13.3157 8.81601 12.9975 8.84679L6.50826 9.47478C6.18213 9.50636 5.89956 9.53371 5.66381 9.53786C5.41403 9.54225 5.1636 9.52285 4.91219 9.4305C4.53514 9.29199 4.20854 9.04315 3.97491 8.71639C3.81913 8.49851 3.73395 8.26222 3.67188 8.02024C3.6133 7.79184 3.56467 7.51216 3.50854 7.18935L2.66358 2.33082C2.63455 2.16388 2.61864 2.07494 2.60265 2.01163C2.60208 2.00938 2.60153 2.00725 2.601 2.00522C2.59891 2.00505 2.59672 2.00487 2.5944 2.0047ZM4.36923 4.35656L4.81796 6.93675C4.8795 7.29058 4.9195 7.51777 4.96341 7.68897C5.00529 7.85226 5.03842 7.91138 5.05953 7.9409C5.1374 8.04982 5.24627 8.13277 5.37195 8.17894C5.40602 8.19145 5.47181 8.2077 5.64036 8.20473C5.81708 8.20163 6.04674 8.17989 6.40421 8.14529L12.8451 7.52198C13.1941 7.48821 13.4178 7.46608 13.5877 7.43619C13.7495 7.40772 13.8099 7.38017 13.8407 7.36185C13.9551 7.29384 14.0465 7.19315 14.1032 7.07275C14.1184 7.04033 14.1401 6.97756 14.1528 6.81376C14.1662 6.64181 14.1667 6.41694 14.1667 6.06635C14.1667 5.69402 14.1662 5.45411 14.1515 5.27122C14.1374 5.09622 14.1136 5.03061 14.0974 4.99789C14.0356 4.87315 13.9363 4.77088 13.8135 4.70542C13.7812 4.68825 13.7164 4.66249 13.5418 4.64327C13.3595 4.62318 13.1197 4.61558 12.7475 4.60457L4.36923 4.35656Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.16667 11.666C5.79848 11.666 5.5 11.9645 5.5 12.3327C5.5 12.7009 5.79848 12.9993 6.16667 12.9993C6.53486 12.9993 6.83333 12.7009 6.83333 12.3327C6.83333 11.9645 6.53486 11.666 6.16667 11.666ZM4.16667 12.3327C4.16667 11.2281 5.0621 10.3327 6.16667 10.3327C7.27124 10.3327 8.16667 11.2281 8.16667 12.3327C8.16667 13.4373 7.27124 14.3327 6.16667 14.3327C5.0621 14.3327 4.16667 13.4373 4.16667 12.3327Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11.666C12.1318 11.666 11.8333 11.9645 11.8333 12.3327C11.8333 12.7009 12.1318 12.9993 12.5 12.9993C12.8682 12.9993 13.1667 12.7009 13.1667 12.3327C13.1667 11.9645 12.8682 11.666 12.5 11.666ZM10.5 12.3327C10.5 11.2281 11.3954 10.3327 12.5 10.3327C13.6046 10.3327 14.5 11.2281 14.5 12.3327C14.5 13.4373 13.6046 14.3327 12.5 14.3327C11.3954 14.3327 10.5 13.4373 10.5 12.3327Z" fill="white"/>
+                            </svg>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="product-card product-card--large">
+                      <div class="product-card__top">
+                        <div class="product-card__image product-card__image--large">
+                          <img src="images/product/image (1).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+                        </div>
+                        <span class="sale-badge">-50%</span>
+                        <fieldset class="rating">
+                          <div class="rating__group">
+                            <input type="radio" class="rating__star" name="product-rating" value="1" aria-label="one star" checked>
+                            <input type="radio" class="rating__star" name="product-rating" value="2" aria-label="two star">
+                            <input type="radio" class="rating__star" name="product-rating" value="3" aria-label="three star">
+                            <input type="radio" class="rating__star" name="product-rating" value="4" aria-label="four star">
+                            <input type="radio" class="rating__star" name="product-rating" value="5" aria-label="five star">
+                          </div>
+                        </fieldset>
+                        <div class="wishlist-badge">
+                          <butto class="btn-reset wishlist-badge__btn" title="Add to wishlist"></butto>
+                        </div>
+                      </div>
+                      <div class="product-card__info">
+                        <h3 class="product-card__title"><a href="#">Manhattan Toy WRT</a></h3>
+                        <div class="product-card__price price">
+                          <span class="price__current price__current--small">$20.40</span>
+                          <span class="price__old price__old--small"><i class="fa-solid fa-star"></i> 4.9 (98 reviews)</span>
+                        </div>
+                        <div class="product-card__props">
+                          <div class="product-card__selects">
+                            <div class="size">
+                              <ul class="list-reset size__list">
+                                <li class="size__item">
+                                  <input id="xs-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="xs-size" class="size__field">xs</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="s-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="s-size" class="size__field">s</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="m-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="m-size" class="size__field">m</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="l-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="l-size" class="size__field">l</label>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="color">
+                              <ul class="list-reset color__list">
+                                <li class="color__item">
+                                  <input id="red" type="radio" name="color" class="input-reset color__input">
+                                  <label for="red" class="color__field"><span class="color__circle" style="background-color: #ea4335;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="green" type="radio" name="color" class="input-reset color__input">
+                                  <label for="green" class="color__field"><span class="color__circle" style="background-color: #34a853;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="blue" type="radio" name="color" class="input-reset color__input">
+                                  <label for="blue" class="color__field"><span class="color__circle" style="background-color: #4285f4;"></span></label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <button class="btn-reset product-card__btn">
+                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5944 2.0047C2.52929 1.99979 2.43894 1.99935 2.2695 1.99935H1.16667C0.798477 1.99935 0.5 1.70088 0.5 1.33269C0.5 0.964496 0.798477 0.666019 1.16667 0.666019H2.2695C2.27578 0.666019 2.28207 0.666018 2.28835 0.666017C2.43146 0.666 2.57315 0.665982 2.69458 0.675131C2.82971 0.685313 2.9867 0.709227 3.14911 0.781673C3.37767 0.883629 3.57293 1.04786 3.71254 1.25557C3.81174 1.40317 3.8622 1.55374 3.89538 1.68512C3.9252 1.80319 3.94946 1.94279 3.97397 2.08378C3.97504 2.08997 3.97612 2.09617 3.9772 2.10236L4.13605 3.01574L12.812 3.27256C13.152 3.28261 13.4458 3.2913 13.6878 3.31795C13.9436 3.34612 14.1971 3.39908 14.4404 3.52867C14.809 3.72503 15.1068 4.03184 15.2922 4.40607C15.4145 4.65304 15.46 4.90806 15.4805 5.16454C15.5 5.40719 15.5 5.70112 15.5 6.04126V6.09042C15.5 6.41007 15.5 6.68734 15.4821 6.91727C15.4631 7.16111 15.4213 7.4033 15.3095 7.64061C15.1395 8.00182 14.8653 8.30387 14.5221 8.5079C14.2967 8.64195 14.0597 8.70696 13.8188 8.74935C13.5917 8.78932 13.3157 8.81601 12.9975 8.84679L6.50826 9.47478C6.18213 9.50636 5.89956 9.53371 5.66381 9.53786C5.41403 9.54225 5.1636 9.52285 4.91219 9.4305C4.53514 9.29199 4.20854 9.04315 3.97491 8.71639C3.81913 8.49851 3.73395 8.26222 3.67188 8.02024C3.6133 7.79184 3.56467 7.51216 3.50854 7.18935L2.66358 2.33082C2.63455 2.16388 2.61864 2.07494 2.60265 2.01163C2.60208 2.00938 2.60153 2.00725 2.601 2.00522C2.59891 2.00505 2.59672 2.00487 2.5944 2.0047ZM4.36923 4.35656L4.81796 6.93675C4.8795 7.29058 4.9195 7.51777 4.96341 7.68897C5.00529 7.85226 5.03842 7.91138 5.05953 7.9409C5.1374 8.04982 5.24627 8.13277 5.37195 8.17894C5.40602 8.19145 5.47181 8.2077 5.64036 8.20473C5.81708 8.20163 6.04674 8.17989 6.40421 8.14529L12.8451 7.52198C13.1941 7.48821 13.4178 7.46608 13.5877 7.43619C13.7495 7.40772 13.8099 7.38017 13.8407 7.36185C13.9551 7.29384 14.0465 7.19315 14.1032 7.07275C14.1184 7.04033 14.1401 6.97756 14.1528 6.81376C14.1662 6.64181 14.1667 6.41694 14.1667 6.06635C14.1667 5.69402 14.1662 5.45411 14.1515 5.27122C14.1374 5.09622 14.1136 5.03061 14.0974 4.99789C14.0356 4.87315 13.9363 4.77088 13.8135 4.70542C13.7812 4.68825 13.7164 4.66249 13.5418 4.64327C13.3595 4.62318 13.1197 4.61558 12.7475 4.60457L4.36923 4.35656Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.16667 11.666C5.79848 11.666 5.5 11.9645 5.5 12.3327C5.5 12.7009 5.79848 12.9993 6.16667 12.9993C6.53486 12.9993 6.83333 12.7009 6.83333 12.3327C6.83333 11.9645 6.53486 11.666 6.16667 11.666ZM4.16667 12.3327C4.16667 11.2281 5.0621 10.3327 6.16667 10.3327C7.27124 10.3327 8.16667 11.2281 8.16667 12.3327C8.16667 13.4373 7.27124 14.3327 6.16667 14.3327C5.0621 14.3327 4.16667 13.4373 4.16667 12.3327Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11.666C12.1318 11.666 11.8333 11.9645 11.8333 12.3327C11.8333 12.7009 12.1318 12.9993 12.5 12.9993C12.8682 12.9993 13.1667 12.7009 13.1667 12.3327C13.1667 11.9645 12.8682 11.666 12.5 11.666ZM10.5 12.3327C10.5 11.2281 11.3954 10.3327 12.5 10.3327C13.6046 10.3327 14.5 11.2281 14.5 12.3327C14.5 13.4373 13.6046 14.3327 12.5 14.3327C11.3954 14.3327 10.5 13.4373 10.5 12.3327Z" fill="white"/>
+                            </svg>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="product-card product-card--large">
+                      <div class="product-card__top">
+                        <div class="product-card__image product-card__image--large">
+                          <img src="images/product/image (2).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+                        </div>
+                        <span class="sale-badge">-50%</span>
+                        <fieldset class="rating">
+                          <div class="rating__group">
+                            <input type="radio" class="rating__star" name="product-rating" value="1" aria-label="one star" checked>
+                            <input type="radio" class="rating__star" name="product-rating" value="2" aria-label="two star">
+                            <input type="radio" class="rating__star" name="product-rating" value="3" aria-label="three star">
+                            <input type="radio" class="rating__star" name="product-rating" value="4" aria-label="four star">
+                            <input type="radio" class="rating__star" name="product-rating" value="5" aria-label="five star">
+                          </div>
+                        </fieldset>
+                        <div class="wishlist-badge">
+                          <butto class="btn-reset wishlist-badge__btn" title="Add to wishlist"></butto>
+                        </div>
+                      </div>
+                      <div class="product-card__info">
+                        <h3 class="product-card__title"><a href="#">Women Sports Jacket</a></h3>
+                        <div class="product-card__price price">
+                          <span class="price__current price__current--small">$20.40</span>
+                          <span class="price__old price__old--small"><i class="fa-solid fa-star"></i> 4.9 (98 reviews)</span>
+                        </div>
+                        <div class="product-card__props">
+                          <div class="product-card__selects">
+                            <div class="size">
+                              <ul class="list-reset size__list">
+                                <li class="size__item">
+                                  <input id="xs-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="xs-size" class="size__field">xs</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="s-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="s-size" class="size__field">s</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="m-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="m-size" class="size__field">m</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="l-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="l-size" class="size__field">l</label>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="color">
+                              <ul class="list-reset color__list">
+                                <li class="color__item">
+                                  <input id="red" type="radio" name="color" class="input-reset color__input">
+                                  <label for="red" class="color__field"><span class="color__circle" style="background-color: #ea4335;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="green" type="radio" name="color" class="input-reset color__input">
+                                  <label for="green" class="color__field"><span class="color__circle" style="background-color: #34a853;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="blue" type="radio" name="color" class="input-reset color__input">
+                                  <label for="blue" class="color__field"><span class="color__circle" style="background-color: #4285f4;"></span></label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <button class="btn-reset product-card__btn">
+                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5944 2.0047C2.52929 1.99979 2.43894 1.99935 2.2695 1.99935H1.16667C0.798477 1.99935 0.5 1.70088 0.5 1.33269C0.5 0.964496 0.798477 0.666019 1.16667 0.666019H2.2695C2.27578 0.666019 2.28207 0.666018 2.28835 0.666017C2.43146 0.666 2.57315 0.665982 2.69458 0.675131C2.82971 0.685313 2.9867 0.709227 3.14911 0.781673C3.37767 0.883629 3.57293 1.04786 3.71254 1.25557C3.81174 1.40317 3.8622 1.55374 3.89538 1.68512C3.9252 1.80319 3.94946 1.94279 3.97397 2.08378C3.97504 2.08997 3.97612 2.09617 3.9772 2.10236L4.13605 3.01574L12.812 3.27256C13.152 3.28261 13.4458 3.2913 13.6878 3.31795C13.9436 3.34612 14.1971 3.39908 14.4404 3.52867C14.809 3.72503 15.1068 4.03184 15.2922 4.40607C15.4145 4.65304 15.46 4.90806 15.4805 5.16454C15.5 5.40719 15.5 5.70112 15.5 6.04126V6.09042C15.5 6.41007 15.5 6.68734 15.4821 6.91727C15.4631 7.16111 15.4213 7.4033 15.3095 7.64061C15.1395 8.00182 14.8653 8.30387 14.5221 8.5079C14.2967 8.64195 14.0597 8.70696 13.8188 8.74935C13.5917 8.78932 13.3157 8.81601 12.9975 8.84679L6.50826 9.47478C6.18213 9.50636 5.89956 9.53371 5.66381 9.53786C5.41403 9.54225 5.1636 9.52285 4.91219 9.4305C4.53514 9.29199 4.20854 9.04315 3.97491 8.71639C3.81913 8.49851 3.73395 8.26222 3.67188 8.02024C3.6133 7.79184 3.56467 7.51216 3.50854 7.18935L2.66358 2.33082C2.63455 2.16388 2.61864 2.07494 2.60265 2.01163C2.60208 2.00938 2.60153 2.00725 2.601 2.00522C2.59891 2.00505 2.59672 2.00487 2.5944 2.0047ZM4.36923 4.35656L4.81796 6.93675C4.8795 7.29058 4.9195 7.51777 4.96341 7.68897C5.00529 7.85226 5.03842 7.91138 5.05953 7.9409C5.1374 8.04982 5.24627 8.13277 5.37195 8.17894C5.40602 8.19145 5.47181 8.2077 5.64036 8.20473C5.81708 8.20163 6.04674 8.17989 6.40421 8.14529L12.8451 7.52198C13.1941 7.48821 13.4178 7.46608 13.5877 7.43619C13.7495 7.40772 13.8099 7.38017 13.8407 7.36185C13.9551 7.29384 14.0465 7.19315 14.1032 7.07275C14.1184 7.04033 14.1401 6.97756 14.1528 6.81376C14.1662 6.64181 14.1667 6.41694 14.1667 6.06635C14.1667 5.69402 14.1662 5.45411 14.1515 5.27122C14.1374 5.09622 14.1136 5.03061 14.0974 4.99789C14.0356 4.87315 13.9363 4.77088 13.8135 4.70542C13.7812 4.68825 13.7164 4.66249 13.5418 4.64327C13.3595 4.62318 13.1197 4.61558 12.7475 4.60457L4.36923 4.35656Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.16667 11.666C5.79848 11.666 5.5 11.9645 5.5 12.3327C5.5 12.7009 5.79848 12.9993 6.16667 12.9993C6.53486 12.9993 6.83333 12.7009 6.83333 12.3327C6.83333 11.9645 6.53486 11.666 6.16667 11.666ZM4.16667 12.3327C4.16667 11.2281 5.0621 10.3327 6.16667 10.3327C7.27124 10.3327 8.16667 11.2281 8.16667 12.3327C8.16667 13.4373 7.27124 14.3327 6.16667 14.3327C5.0621 14.3327 4.16667 13.4373 4.16667 12.3327Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11.666C12.1318 11.666 11.8333 11.9645 11.8333 12.3327C11.8333 12.7009 12.1318 12.9993 12.5 12.9993C12.8682 12.9993 13.1667 12.7009 13.1667 12.3327C13.1667 11.9645 12.8682 11.666 12.5 11.666ZM10.5 12.3327C10.5 11.2281 11.3954 10.3327 12.5 10.3327C13.6046 10.3327 14.5 11.2281 14.5 12.3327C14.5 13.4373 13.6046 14.3327 12.5 14.3327C11.3954 14.3327 10.5 13.4373 10.5 12.3327Z" fill="white"/>
+                            </svg>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="product-card product-card--large">
+                      <div class="product-card__top">
+                        <div class="product-card__image product-card__image--large">
+                          <img src="images/product/image (3).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+                        </div>
+                        <span class="sale-badge">-50%</span>
+                        <fieldset class="rating">
+                          <div class="rating__group">
+                            <input type="radio" class="rating__star" name="product-rating" value="1" aria-label="one star" checked>
+                            <input type="radio" class="rating__star" name="product-rating" value="2" aria-label="two star">
+                            <input type="radio" class="rating__star" name="product-rating" value="3" aria-label="three star">
+                            <input type="radio" class="rating__star" name="product-rating" value="4" aria-label="four star">
+                            <input type="radio" class="rating__star" name="product-rating" value="5" aria-label="five star">
+                          </div>
+                        </fieldset>
+                        <div class="wishlist-badge">
+                          <butto class="btn-reset wishlist-badge__btn" title="Add to wishlist"></butto>
+                        </div>
+                      </div>
+                      <div class="product-card__info">
+                        <h3 class="product-card__title"><a href="#">Women Sports Jacket</a></h3>
+                        <div class="product-card__price price">
+                          <span class="price__current price__current--small">$20.40</span>
+                          <span class="price__old price__old--small"><i class="fa-solid fa-star"></i> 4.9 (98 reviews)</span>
+                        </div>
+                        <div class="product-card__props">
+                          <div class="product-card__selects">
+                            <div class="size">
+                              <ul class="list-reset size__list">
+                                <li class="size__item">
+                                  <input id="xs-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="xs-size" class="size__field">xs</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="s-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="s-size" class="size__field">s</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="m-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="m-size" class="size__field">m</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="l-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="l-size" class="size__field">l</label>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="color">
+                              <ul class="list-reset color__list">
+                                <li class="color__item">
+                                  <input id="red" type="radio" name="color" class="input-reset color__input">
+                                  <label for="red" class="color__field"><span class="color__circle" style="background-color: #ea4335;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="green" type="radio" name="color" class="input-reset color__input">
+                                  <label for="green" class="color__field"><span class="color__circle" style="background-color: #34a853;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="blue" type="radio" name="color" class="input-reset color__input">
+                                  <label for="blue" class="color__field"><span class="color__circle" style="background-color: #4285f4;"></span></label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <button class="btn-reset product-card__btn">
+                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5944 2.0047C2.52929 1.99979 2.43894 1.99935 2.2695 1.99935H1.16667C0.798477 1.99935 0.5 1.70088 0.5 1.33269C0.5 0.964496 0.798477 0.666019 1.16667 0.666019H2.2695C2.27578 0.666019 2.28207 0.666018 2.28835 0.666017C2.43146 0.666 2.57315 0.665982 2.69458 0.675131C2.82971 0.685313 2.9867 0.709227 3.14911 0.781673C3.37767 0.883629 3.57293 1.04786 3.71254 1.25557C3.81174 1.40317 3.8622 1.55374 3.89538 1.68512C3.9252 1.80319 3.94946 1.94279 3.97397 2.08378C3.97504 2.08997 3.97612 2.09617 3.9772 2.10236L4.13605 3.01574L12.812 3.27256C13.152 3.28261 13.4458 3.2913 13.6878 3.31795C13.9436 3.34612 14.1971 3.39908 14.4404 3.52867C14.809 3.72503 15.1068 4.03184 15.2922 4.40607C15.4145 4.65304 15.46 4.90806 15.4805 5.16454C15.5 5.40719 15.5 5.70112 15.5 6.04126V6.09042C15.5 6.41007 15.5 6.68734 15.4821 6.91727C15.4631 7.16111 15.4213 7.4033 15.3095 7.64061C15.1395 8.00182 14.8653 8.30387 14.5221 8.5079C14.2967 8.64195 14.0597 8.70696 13.8188 8.74935C13.5917 8.78932 13.3157 8.81601 12.9975 8.84679L6.50826 9.47478C6.18213 9.50636 5.89956 9.53371 5.66381 9.53786C5.41403 9.54225 5.1636 9.52285 4.91219 9.4305C4.53514 9.29199 4.20854 9.04315 3.97491 8.71639C3.81913 8.49851 3.73395 8.26222 3.67188 8.02024C3.6133 7.79184 3.56467 7.51216 3.50854 7.18935L2.66358 2.33082C2.63455 2.16388 2.61864 2.07494 2.60265 2.01163C2.60208 2.00938 2.60153 2.00725 2.601 2.00522C2.59891 2.00505 2.59672 2.00487 2.5944 2.0047ZM4.36923 4.35656L4.81796 6.93675C4.8795 7.29058 4.9195 7.51777 4.96341 7.68897C5.00529 7.85226 5.03842 7.91138 5.05953 7.9409C5.1374 8.04982 5.24627 8.13277 5.37195 8.17894C5.40602 8.19145 5.47181 8.2077 5.64036 8.20473C5.81708 8.20163 6.04674 8.17989 6.40421 8.14529L12.8451 7.52198C13.1941 7.48821 13.4178 7.46608 13.5877 7.43619C13.7495 7.40772 13.8099 7.38017 13.8407 7.36185C13.9551 7.29384 14.0465 7.19315 14.1032 7.07275C14.1184 7.04033 14.1401 6.97756 14.1528 6.81376C14.1662 6.64181 14.1667 6.41694 14.1667 6.06635C14.1667 5.69402 14.1662 5.45411 14.1515 5.27122C14.1374 5.09622 14.1136 5.03061 14.0974 4.99789C14.0356 4.87315 13.9363 4.77088 13.8135 4.70542C13.7812 4.68825 13.7164 4.66249 13.5418 4.64327C13.3595 4.62318 13.1197 4.61558 12.7475 4.60457L4.36923 4.35656Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.16667 11.666C5.79848 11.666 5.5 11.9645 5.5 12.3327C5.5 12.7009 5.79848 12.9993 6.16667 12.9993C6.53486 12.9993 6.83333 12.7009 6.83333 12.3327C6.83333 11.9645 6.53486 11.666 6.16667 11.666ZM4.16667 12.3327C4.16667 11.2281 5.0621 10.3327 6.16667 10.3327C7.27124 10.3327 8.16667 11.2281 8.16667 12.3327C8.16667 13.4373 7.27124 14.3327 6.16667 14.3327C5.0621 14.3327 4.16667 13.4373 4.16667 12.3327Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11.666C12.1318 11.666 11.8333 11.9645 11.8333 12.3327C11.8333 12.7009 12.1318 12.9993 12.5 12.9993C12.8682 12.9993 13.1667 12.7009 13.1667 12.3327C13.1667 11.9645 12.8682 11.666 12.5 11.666ZM10.5 12.3327C10.5 11.2281 11.3954 10.3327 12.5 10.3327C13.6046 10.3327 14.5 11.2281 14.5 12.3327C14.5 13.4373 13.6046 14.3327 12.5 14.3327C11.3954 14.3327 10.5 13.4373 10.5 12.3327Z" fill="white"/>
+                            </svg>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="product-card product-card--large">
+                      <div class="product-card__top">
+                        <div class="product-card__image product-card__image--large">
+                          <img src="images/product/image (4).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+                        </div>
+                        <span class="sale-badge">-50%</span>
+                        <fieldset class="rating">
+                          <div class="rating__group">
+                            <input type="radio" class="rating__star" name="product-rating" value="1" aria-label="one star" checked>
+                            <input type="radio" class="rating__star" name="product-rating" value="2" aria-label="two star">
+                            <input type="radio" class="rating__star" name="product-rating" value="3" aria-label="three star">
+                            <input type="radio" class="rating__star" name="product-rating" value="4" aria-label="four star">
+                            <input type="radio" class="rating__star" name="product-rating" value="5" aria-label="five star">
+                          </div>
+                        </fieldset>
+                        <div class="wishlist-badge">
+                          <butto class="btn-reset wishlist-badge__btn" title="Add to wishlist"></butto>
+                        </div>
+                      </div>
+                      <div class="product-card__info">
+                        <h3 class="product-card__title"><a href="#">Women Sports Jacket</a></h3>
+                        <div class="product-card__price price">
+                          <span class="price__current price__current--small">$20.40</span>
+                          <span class="price__old price__old--small"><i class="fa-solid fa-star"></i> 4.9 (98 reviews)</span>
+                        </div>
+                        <div class="product-card__props">
+                          <div class="product-card__selects">
+                            <div class="size">
+                              <ul class="list-reset size__list">
+                                <li class="size__item">
+                                  <input id="xs-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="xs-size" class="size__field">xs</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="s-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="s-size" class="size__field">s</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="m-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="m-size" class="size__field">m</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="l-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="l-size" class="size__field">l</label>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="color">
+                              <ul class="list-reset color__list">
+                                <li class="color__item">
+                                  <input id="red" type="radio" name="color" class="input-reset color__input">
+                                  <label for="red" class="color__field"><span class="color__circle" style="background-color: #ea4335;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="green" type="radio" name="color" class="input-reset color__input">
+                                  <label for="green" class="color__field"><span class="color__circle" style="background-color: #34a853;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="blue" type="radio" name="color" class="input-reset color__input">
+                                  <label for="blue" class="color__field"><span class="color__circle" style="background-color: #4285f4;"></span></label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <button class="btn-reset product-card__btn">
+                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5944 2.0047C2.52929 1.99979 2.43894 1.99935 2.2695 1.99935H1.16667C0.798477 1.99935 0.5 1.70088 0.5 1.33269C0.5 0.964496 0.798477 0.666019 1.16667 0.666019H2.2695C2.27578 0.666019 2.28207 0.666018 2.28835 0.666017C2.43146 0.666 2.57315 0.665982 2.69458 0.675131C2.82971 0.685313 2.9867 0.709227 3.14911 0.781673C3.37767 0.883629 3.57293 1.04786 3.71254 1.25557C3.81174 1.40317 3.8622 1.55374 3.89538 1.68512C3.9252 1.80319 3.94946 1.94279 3.97397 2.08378C3.97504 2.08997 3.97612 2.09617 3.9772 2.10236L4.13605 3.01574L12.812 3.27256C13.152 3.28261 13.4458 3.2913 13.6878 3.31795C13.9436 3.34612 14.1971 3.39908 14.4404 3.52867C14.809 3.72503 15.1068 4.03184 15.2922 4.40607C15.4145 4.65304 15.46 4.90806 15.4805 5.16454C15.5 5.40719 15.5 5.70112 15.5 6.04126V6.09042C15.5 6.41007 15.5 6.68734 15.4821 6.91727C15.4631 7.16111 15.4213 7.4033 15.3095 7.64061C15.1395 8.00182 14.8653 8.30387 14.5221 8.5079C14.2967 8.64195 14.0597 8.70696 13.8188 8.74935C13.5917 8.78932 13.3157 8.81601 12.9975 8.84679L6.50826 9.47478C6.18213 9.50636 5.89956 9.53371 5.66381 9.53786C5.41403 9.54225 5.1636 9.52285 4.91219 9.4305C4.53514 9.29199 4.20854 9.04315 3.97491 8.71639C3.81913 8.49851 3.73395 8.26222 3.67188 8.02024C3.6133 7.79184 3.56467 7.51216 3.50854 7.18935L2.66358 2.33082C2.63455 2.16388 2.61864 2.07494 2.60265 2.01163C2.60208 2.00938 2.60153 2.00725 2.601 2.00522C2.59891 2.00505 2.59672 2.00487 2.5944 2.0047ZM4.36923 4.35656L4.81796 6.93675C4.8795 7.29058 4.9195 7.51777 4.96341 7.68897C5.00529 7.85226 5.03842 7.91138 5.05953 7.9409C5.1374 8.04982 5.24627 8.13277 5.37195 8.17894C5.40602 8.19145 5.47181 8.2077 5.64036 8.20473C5.81708 8.20163 6.04674 8.17989 6.40421 8.14529L12.8451 7.52198C13.1941 7.48821 13.4178 7.46608 13.5877 7.43619C13.7495 7.40772 13.8099 7.38017 13.8407 7.36185C13.9551 7.29384 14.0465 7.19315 14.1032 7.07275C14.1184 7.04033 14.1401 6.97756 14.1528 6.81376C14.1662 6.64181 14.1667 6.41694 14.1667 6.06635C14.1667 5.69402 14.1662 5.45411 14.1515 5.27122C14.1374 5.09622 14.1136 5.03061 14.0974 4.99789C14.0356 4.87315 13.9363 4.77088 13.8135 4.70542C13.7812 4.68825 13.7164 4.66249 13.5418 4.64327C13.3595 4.62318 13.1197 4.61558 12.7475 4.60457L4.36923 4.35656Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.16667 11.666C5.79848 11.666 5.5 11.9645 5.5 12.3327C5.5 12.7009 5.79848 12.9993 6.16667 12.9993C6.53486 12.9993 6.83333 12.7009 6.83333 12.3327C6.83333 11.9645 6.53486 11.666 6.16667 11.666ZM4.16667 12.3327C4.16667 11.2281 5.0621 10.3327 6.16667 10.3327C7.27124 10.3327 8.16667 11.2281 8.16667 12.3327C8.16667 13.4373 7.27124 14.3327 6.16667 14.3327C5.0621 14.3327 4.16667 13.4373 4.16667 12.3327Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11.666C12.1318 11.666 11.8333 11.9645 11.8333 12.3327C11.8333 12.7009 12.1318 12.9993 12.5 12.9993C12.8682 12.9993 13.1667 12.7009 13.1667 12.3327C13.1667 11.9645 12.8682 11.666 12.5 11.666ZM10.5 12.3327C10.5 11.2281 11.3954 10.3327 12.5 10.3327C13.6046 10.3327 14.5 11.2281 14.5 12.3327C14.5 13.4373 13.6046 14.3327 12.5 14.3327C11.3954 14.3327 10.5 13.4373 10.5 12.3327Z" fill="white"/>
+                            </svg>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="product-card product-card--large">
+                      <div class="product-card__top">
+                        <div class="product-card__image product-card__image--large">
+                          <img src="images/product/image (1).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+                        </div>
+                        <span class="sale-badge">-50%</span>
+                        <fieldset class="rating">
+                          <div class="rating__group">
+                            <input type="radio" class="rating__star" name="product-rating" value="1" aria-label="one star" checked>
+                            <input type="radio" class="rating__star" name="product-rating" value="2" aria-label="two star">
+                            <input type="radio" class="rating__star" name="product-rating" value="3" aria-label="three star">
+                            <input type="radio" class="rating__star" name="product-rating" value="4" aria-label="four star">
+                            <input type="radio" class="rating__star" name="product-rating" value="5" aria-label="five star">
+                          </div>
+                        </fieldset>
+                        <div class="wishlist-badge">
+                          <butto class="btn-reset wishlist-badge__btn" title="Add to wishlist"></butto>
+                        </div>
+                      </div>
+                      <div class="product-card__info">
+                        <h3 class="product-card__title"><a href="#">Women Sports Jacket</a></h3>
+                        <div class="product-card__price price">
+                          <span class="price__current price__current--small">$20.40</span>
+                          <span class="price__old price__old--small"><i class="fa-solid fa-star"></i> 4.9 (98 reviews)</span>
+                        </div>
+                        <div class="product-card__props">
+                          <div class="product-card__selects">
+                            <div class="size">
+                              <ul class="list-reset size__list">
+                                <li class="size__item">
+                                  <input id="xs-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="xs-size" class="size__field">xs</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="s-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="s-size" class="size__field">s</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="m-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="m-size" class="size__field">m</label>
+                                </li>
+                                <li class="size__item">
+                                  <input id="l-size" type="radio" name="size" class="input-reset size__input">
+                                  <label for="l-size" class="size__field">l</label>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="color">
+                              <ul class="list-reset color__list">
+                                <li class="color__item">
+                                  <input id="red" type="radio" name="color" class="input-reset color__input">
+                                  <label for="red" class="color__field"><span class="color__circle" style="background-color: #ea4335;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="green" type="radio" name="color" class="input-reset color__input">
+                                  <label for="green" class="color__field"><span class="color__circle" style="background-color: #34a853;"></span></label>
+                                </li>
+                                <li class="color__item">
+                                  <input id="blue" type="radio" name="color" class="input-reset color__input">
+                                  <label for="blue" class="color__field"><span class="color__circle" style="background-color: #4285f4;"></span></label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <button class="btn-reset product-card__btn">
+                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5944 2.0047C2.52929 1.99979 2.43894 1.99935 2.2695 1.99935H1.16667C0.798477 1.99935 0.5 1.70088 0.5 1.33269C0.5 0.964496 0.798477 0.666019 1.16667 0.666019H2.2695C2.27578 0.666019 2.28207 0.666018 2.28835 0.666017C2.43146 0.666 2.57315 0.665982 2.69458 0.675131C2.82971 0.685313 2.9867 0.709227 3.14911 0.781673C3.37767 0.883629 3.57293 1.04786 3.71254 1.25557C3.81174 1.40317 3.8622 1.55374 3.89538 1.68512C3.9252 1.80319 3.94946 1.94279 3.97397 2.08378C3.97504 2.08997 3.97612 2.09617 3.9772 2.10236L4.13605 3.01574L12.812 3.27256C13.152 3.28261 13.4458 3.2913 13.6878 3.31795C13.9436 3.34612 14.1971 3.39908 14.4404 3.52867C14.809 3.72503 15.1068 4.03184 15.2922 4.40607C15.4145 4.65304 15.46 4.90806 15.4805 5.16454C15.5 5.40719 15.5 5.70112 15.5 6.04126V6.09042C15.5 6.41007 15.5 6.68734 15.4821 6.91727C15.4631 7.16111 15.4213 7.4033 15.3095 7.64061C15.1395 8.00182 14.8653 8.30387 14.5221 8.5079C14.2967 8.64195 14.0597 8.70696 13.8188 8.74935C13.5917 8.78932 13.3157 8.81601 12.9975 8.84679L6.50826 9.47478C6.18213 9.50636 5.89956 9.53371 5.66381 9.53786C5.41403 9.54225 5.1636 9.52285 4.91219 9.4305C4.53514 9.29199 4.20854 9.04315 3.97491 8.71639C3.81913 8.49851 3.73395 8.26222 3.67188 8.02024C3.6133 7.79184 3.56467 7.51216 3.50854 7.18935L2.66358 2.33082C2.63455 2.16388 2.61864 2.07494 2.60265 2.01163C2.60208 2.00938 2.60153 2.00725 2.601 2.00522C2.59891 2.00505 2.59672 2.00487 2.5944 2.0047ZM4.36923 4.35656L4.81796 6.93675C4.8795 7.29058 4.9195 7.51777 4.96341 7.68897C5.00529 7.85226 5.03842 7.91138 5.05953 7.9409C5.1374 8.04982 5.24627 8.13277 5.37195 8.17894C5.40602 8.19145 5.47181 8.2077 5.64036 8.20473C5.81708 8.20163 6.04674 8.17989 6.40421 8.14529L12.8451 7.52198C13.1941 7.48821 13.4178 7.46608 13.5877 7.43619C13.7495 7.40772 13.8099 7.38017 13.8407 7.36185C13.9551 7.29384 14.0465 7.19315 14.1032 7.07275C14.1184 7.04033 14.1401 6.97756 14.1528 6.81376C14.1662 6.64181 14.1667 6.41694 14.1667 6.06635C14.1667 5.69402 14.1662 5.45411 14.1515 5.27122C14.1374 5.09622 14.1136 5.03061 14.0974 4.99789C14.0356 4.87315 13.9363 4.77088 13.8135 4.70542C13.7812 4.68825 13.7164 4.66249 13.5418 4.64327C13.3595 4.62318 13.1197 4.61558 12.7475 4.60457L4.36923 4.35656Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.16667 11.666C5.79848 11.666 5.5 11.9645 5.5 12.3327C5.5 12.7009 5.79848 12.9993 6.16667 12.9993C6.53486 12.9993 6.83333 12.7009 6.83333 12.3327C6.83333 11.9645 6.53486 11.666 6.16667 11.666ZM4.16667 12.3327C4.16667 11.2281 5.0621 10.3327 6.16667 10.3327C7.27124 10.3327 8.16667 11.2281 8.16667 12.3327C8.16667 13.4373 7.27124 14.3327 6.16667 14.3327C5.0621 14.3327 4.16667 13.4373 4.16667 12.3327Z" fill="white"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11.666C12.1318 11.666 11.8333 11.9645 11.8333 12.3327C11.8333 12.7009 12.1318 12.9993 12.5 12.9993C12.8682 12.9993 13.1667 12.7009 13.1667 12.3327C13.1667 11.9645 12.8682 11.666 12.5 11.666ZM10.5 12.3327C10.5 11.2281 11.3954 10.3327 12.5 10.3327C13.6046 10.3327 14.5 11.2281 14.5 12.3327C14.5 13.4373 13.6046 14.3327 12.5 14.3327C11.3954 14.3327 10.5 13.4373 10.5 12.3327Z" fill="white"/>
+                            </svg>
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
         
+            
+        <!-- instruction -->
+
+        <section>
+            <div class="container">
+                <div class="instruction-carousel">
+                    <div class="instruction-card">
+                        <img src="images/Instruction/image.webp" alt="">
+                        <div class="btn btn-first">Step 1</div>
+                        <h3>Filter & discover</h3>
+                        <p>Smart filtering and suggestions make it easy to find</p>
+                    </div>
+                    <div class="instruction-card">
+                        <img src="images/Instruction/image (1).webp" alt="">
+                        <div class="btn btn-second">Step 2</div>
+                        <h3>Add to bag</h3>
+                        <p>Easily select the correct items and add them to the cart</p>
+                    </div>
+                    <div class="instruction-card">
+                        <img src="images/Instruction/image (10).webp" alt="">
+                        <div class="btn btn-third">Step 3</div>
+                        <h3>Fast shipping</h3>
+                        <p>The carrier will confirm and ship quickly to you</p>
+                    </div>
+                    <div class="instruction-card">
+                        <img src="images/Instruction/image (34).webp" alt="">
+                        <div class="btn btn-fourth">Step 4</div>
+                        <h3>Enjoy the product</h3>
+                        <p>Have fun and enjoy your 5-star quality products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- earn free money -->
+
+        <section>
+            <div class="container">
+                <div class="earn">
+                    <div class="earn-content">
+                        <img src="images/logo.14d0e71d.svg" alt="">
+                        <h2>Earn free money 
+                            with Ciseco</h2>
+                        
+                        <p>With Ciseco you will get freeship & savings combo...</p>
+                        <div class="earn-btn">
+                            <div class="btn btn-primary"><a href="#">Saving combo</a></div>
+                            <div class="btn btn-secondary"><a href="#">Discover more</a></div>
+                        </div>
+                    </div>
+                    <div class="earn-photo">
+                        <img src="images/rightLargeImg.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- start exploring -->
+
+        <div class="container">
+          <div class="explore">
+            <h1 class="explore-title">Start Exploring</h1>
+              <nav class="navecation">
+                <ul id="navi">
+                  <li class="division-item"><a class="menu active"#"><i class="fa-solid fa-venus"></i> Women </a></li>
+                  <li class="division-item"><a class="menu" > <i class="fa-solid fa-mars"></i> Men  </a></li>
+                  <li class="division-item"><a class="menu" ><i class="fa-solid fa-child"></i> Kids</a></li>
+                  <li class="division-item"><a class="menu" ><i class="fa-solid fa-dumbbell"></i> Sport</a></li>  
+                  <li class="division-item"><a class="menu" ><i class="fa-solid fa-crown"></i> Beauty</a></li>  
+                  <li class="division-item"><a class="menu" ><i class="fa-regular fa-gem"></i> Jewelry</a></li>  
+                      
+                </ul>
+              </nav>
+            <div class="explore-carousel">
+              <div class="explore-card">
+                <div class="explore-row-1">
+                  <div class="explore-img">
+                    <img src="images/Explore/image (5).webp" alt="">
+                  </div>
+                  <p>155 products</p>
+                </div>
+                <div class="explore-row-2">
+                  <p>Manufacturer</p>
+                  <h2>Backpack</h2>
+                </div>
+                <div class="explore-row-3">
+                  <a href="#">See collection <i class="fa-solid fa-arrow-right"></i></a>
+                  <img src="images/explore1.bafb60cf.svg" alt="">
+                </div>
+              </div>
+              <div class="explore-card">
+                <div class="explore-row-1">
+                  <div class="explore-img">
+                    <img src="images/Explore/image.webp" alt="">
+                  </div>
+                  <p>22 products</p>
+                </div>
+                <div class="explore-row-2">
+                  <p>Manufacturer</p>
+                  <h2>Shoes</h2>
+                </div>
+                <div class="explore-row-3">
+                  <a href="#">See collection <i class="fa-solid fa-arrow-right"></i></a>
+                  <img src="images/explore2.46138c9a.svg" alt="">
+                </div>
+              </div>
+              <div class="explore-card">
+                <div class="explore-row-1">
+                  <div class="explore-img">
+                    <img src="images/Explore/image (2).webp" alt="">
+                  </div>
+                  <p>144 products</p>
+                </div>
+                <div class="explore-row-2">
+                  <p>Manufacturer</p>
+                  <h2>Recycled blanket</h2>
+                </div>
+                <div class="explore-row-3">
+                  <a href="#">See collection <i class="fa-solid fa-arrow-right"></i></a>
+                  <img src="images/explore3.8526de42.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="explore-carousel">
+            <div class="explore-card">
+              <div class="explore-row-1">
+                <div class="explore-img">
+                  <img src="images/Explore/image (1).webp" alt="">
+                </div>
+                <p>155 products</p>
+              </div>
+              <div class="explore-row-2">
+                <p>Manufacturer</p>
+                <h2>Cycling shorts</h2>
+              </div>
+              <div class="explore-row-3">
+                <a href="#">See collection <i class="fa-solid fa-arrow-right"></i></a>
+                <img src="images/explore5.4a34ab29.svg" alt="">
+              </div>
+            </div>
+            <div class="explore-card">
+              <div class="explore-row-1">
+                <div class="explore-img">
+                  <img src="images/Explore/image (4).webp" alt="">
+                </div>
+                <p>22 products</p>
+              </div>
+              <div class="explore-row-2">
+                <p>Manufacturer</p>
+                <h2>Cycling Jersey</h2>
+              </div>
+              <div class="explore-row-3">
+                <a href="#">See collection <i class="fa-solid fa-arrow-right"></i></a>
+                <img src="images/explore6.9182f851.svg" alt="">
+              </div>
+            </div>
+            <div class="explore-card">
+              <div class="explore-row-1">
+                <div class="explore-img">
+                  <img src="images/Explore/image (3).webp" alt="">
+                </div>
+                <p>144 products</p>
+              </div>
+              <div class="explore-row-2">
+                <p>Manufacturer</p>
+                <h2>Car coat</h2>
+              </div>
+              <div class="explore-row-3">
+                <a href="#">See collection <i class="fa-solid fa-arrow-right"></i></a>
+                <img src="images/explore9.0d4aa2f6.svg" alt="">
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- special offer -->
+
+        <div class="container">
+          <div class="special">
+            <div class="special-img">
+              <img src="images/Special-offer.webp" alt="">
+            </div>
+            <div class="special-content">
+              <div class="special-text">
+                <img src="images/logo.14d0e71d.svg" alt="">
+                <h2>Special offer in kids products</h2>
+                <p>Fashion is a form of self-expression and autonomy at a particular period and place.</p>
+                <div class="btn btn-primary"><a href="#">Discover more </a></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- chosen by expert  -->
+
+        <div class="product-carousel-header">Chosen by our experts</div>
+        <div class="product-carousel">
+          <div class="product">
+            <div class="product-top">
+              <div class="large-photo">
+                <img src="images/Chosen by our expert/image (1).webp" alt="">
+              </div>
+              <div class="small-photo">
+                <img src="images/Chosen by our expert/image (2).webp" alt="">
+                <img src="images/Chosen by our expert/image (7).webp" alt="">
+                <img src="images/Chosen by our expert/image (9).webp" alt="">
+              </div>
+              <div class="product-top-content">
+                <div class="product-content-left">
+                  <h3>Suede Bomber Jacket</h3>
+                  <ul>
+                    <li>Orange</li>
+                    <li>|</li>
+                    <li><i class="fa-solid fa-star"></i> 4.9 (269 reviews)</li>
+                  </ul>
+                </div>
+                <div class="product-content-right">
+                  <button>$52</button>
+                </div>
+              </div>
+            </div>           
+          </div>
+          <div class="product">
+            <div class="product-top">
+              <div class="large-photo">
+                <img src="images/Chosen by our expert/image (10).webp" alt="">
+              </div>
+              <div class="small-photo">
+                <img src="images/Chosen by our expert/image (4).webp" alt="">
+                <img src="images/Chosen by our expert/image (5).webp" alt="">
+                <img src="images/Chosen by our expert/image.webp" alt="">
+              </div>
+            </div>     
+            <div class="product-top-content">
+              <div class="product-content-left">
+                <h3>Downton Pet Tote</h3>
+                <ul>
+                  <li>Black and Orange</li>
+                  <li>|</li>
+                  <li><i class="fa-solid fa-star"></i> 4.9 (269 reviews)</li>
+                </ul>
+              </div>
+              <div class="product-content-right">
+                <button>$88</button>
+              </div>
+            </div>      
+          </div>
+          <div class="product">
+            <div class="product-top">
+              <div class="large-photo">
+                <img src="images/Chosen by our expert/image (6).webp" alt="">
+              </div>
+              <div class="small-photo">
+                <img src="images/Chosen by our expert/image (3).webp" alt="">
+                <img src="images/Chosen by our expert/image (8).webp" alt="">
+                <img src="images/Chosen by our expert/image 12.webp" alt="">
+              </div>
+            </div>  
+            <div class="product-top-content">
+              <div class="product-content-left">
+                <h3>Cader Leather Sneakers</h3>
+                <ul>
+                  <li>3 size available</li>
+                  <li>|</li>
+                  <li><i class="fa-solid fa-star"></i> 4.9 (269 reviews)</li>
+                </ul>
+              </div>
+              <div class="product-content-right">
+                <button>$60</button>
+              </div>
+            </div>         
+          </div>  
+          <div class="product">
+            <div class="product-top">
+              <div class="product-top-last">
+                <h2>More items <i class="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                <a href=""><p>Show me more</p></a>
+              </div>
+            </div>           
+          </div>    
+        </div>
+        <!-- partial -->
+  
+<!-- Shop by department -->
+
+<section class="product-cards">
+  <div class="container">
+    <div class="product-cards__top">
+      <h2 class="product-cards__title">Shop by department</h2>
+      <div class="slider-nav product-cards__slider-nav">
+        <button class="btn-reset slider-btn slider-nav__btn product-cards__prev">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 17.2071C8.81658 17.5976 8.18342 17.5976 7.79289 17.2071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929L7.79289 6.79289C8.18342 6.40237 8.81658 6.40237 9.20711 6.79289C9.59763 7.18342 9.59763 7.81658 9.20711 8.20711L6.41421 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L6.41421 13L9.20711 15.7929C9.59763 16.1834 9.59763 16.8166 9.20711 17.2071Z" fill="#424551"/>
+          </svg>
+        </button>
+        <button class="btn-reset slider-btn slider-nav__btn product-cards__next">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="product-cards__slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <article class="product-card product-card--large">
+            <div class="product-card__top">
+              <div class="product-card__image product-card__image--large">
+                <img src="images/Shop by department/image.webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__main"><a href="#">Travel Kits</a></h3>
+              <p class="product-card_sub"><a href="">20+ categories</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <article class="product-card product-card--large">
+            <div class="product-card__top">
+              <div class="product-card__image product-card__image--large">
+                <img src="images/Shop by department/image (1).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__main"><a href="#">Beauty products</a></h3>
+              <p class="product-card_sub"><a href="">10+ categories</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <article class="product-card product-card--large">
+            <div class="product-card__top">
+              <div class="product-card__image product-card__image--large">
+                <img src="images/Shop by department/image (2).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__main"><a href="#">Sport Kits</a></h3>
+              <p class="product-card_sub"><a href="">34+ categories</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <article class="product-card product-card--large">
+            <div class="product-card__top">
+              <div class="product-card__image product-card__image--large">
+                <img src="images/Shop by department/image (3).webp" class="image" alt="Women Sports Jacket" class="product-card__img" width="390px" height="440px">
+              </div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__main"><a href="#">Pet foods</a></h3>
+              <p class="product-card_sub"><a href="">12+ categories</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <article class="product-card product-card--large">
+            <div class="product-card_null"></div>
+            <div class="product-card__info">
+              <h3 class="product-card__main"><a href="#">More Collections <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+              <p class="product-card_sub"><a href="">Show me more</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dont meet out on our special offer  -->
+
+<div class="container">
+  <div class="special">
+    <div class="special-content">
+      <div class="special-offer-text">
+        <h2>Don't miss out on special offers</h2>
+        <p>Register to receive news about the latest, savings combos, discount codes...</p>
+        <ul class="special-offer">
+          <li class="special-offer-item"><button>1</button> <span>Saving combos</span></li>
+          <li class="special-offer-item"><button>2</button> <span>Freeship</span></li>
+          <li class="special-offer-item"><button>3</button> <span>Premium magazines</span></li>
+        </ul>
+        <div class="customer_info"><input type="text" placeholder="Enter your email">
+          <button><i class="fa-solid fa-arrow-right"></i></button></div>
+        </div>
+      
+    </div>
+    <div class="special-img">
+      <img src="images/image.webp" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- the latest news  -->
+
+    <div class="container">
+      <div class="latest-news">
+        <h2 class="news-title">The latest news. From the Ciseco blog</h2>
+        <div class="news">
+          <div class="news-left">
+            <div class="news-left-top">
+              <img src="images/latest new/image (19).webp" alt="">
+              <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+            <div class="news-left-bottom">
+              <h2>Sagittis Vitae Et Leo Duis Ut Diam Quam Nulla Porttitor</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero perspiciatis ullam ea? Nihil accusamus similique debitis</p>
+              <div class="news-left-sub">
+                <img src="images/image (13).webp" alt="">
+                <span>Kailey Greer·May 20, 2021</span>
+              </div>
+            </div>
+          </div>
+          <div class="news-right">
+            <div class="news-right-first">
+              <div class="news-right-content">
+                <h3>Sagittis Vitae Et Leo Duis Ut Diam Quam Nulla Porttitor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem voluptatibus</p>
+                <div class="news-right-sub">
+                  <img src="images/image (13).webp" alt="">
+                  <span>Kailey Greer·May 20, 2021</span>
+                </div>
+              </div>
+              <div class="news-right-photo">
+                <img src="images/latest new/image.webp" alt="">
+              </div>
+            </div>
+            <div class="news-right-first">
+              <div class="news-right-content">
+                <h3>Sagittis Vitae Et Leo Duis Ut Diam Quam Nulla Porttitor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem voluptatibus</p>
+                <div class="news-right-sub">
+                  <img src="images/image (13).webp" alt="">
+                  <span>Kailey Greer·May 20, 2021</span>
+                </div>
+              </div>
+              <div class="news-right-photo">
+                <img src="images/latest new/image (1).webp" alt="">
+              </div>
+            </div>
+            <div class="news-right-first">
+              <div class="news-right-content">
+                <h3>Sagittis Vitae Et Leo Duis Ut Diam Quam Nulla Porttitor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem voluptatibus</p>
+                <div class="news-right-sub">
+                  <img src="images/image (13).webp" alt="">
+                  <span>Kailey Greer·May 20, 2021</span>
+                </div>
+              </div>
+              <div class="news-right-photo">
+                <img src="images/latest new/image (1).webp" alt="">
+              </div>
+            </div>
+              
+          </div>
+        </div>
+        <div class="btn"><a href="">Show all blog article</a></div>
+      </div>
+      
+    </div>
+
+  <!-- good news from far away -->
+
+  <div class="container">
+    <div class="good-news">
+      <h1>Goods news from far away</h1>
+      <p>Let's see what people think of Ciseco</p>
+      <div class="good-news-photo-top">
+        <img src="images/good-news/image (2).webp" alt="">
+        <img src="images/good-news/image (5).webp" alt="">
+        <img src="images/good-news/image (6).webp" alt="">
+        <img src="images/ngoac kep.webp" alt="">
+        <img src="images/ngoac kep.webp" alt="">
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>Great quality products, affordable prices, fast and  friendly delivery. I very recommend</p>
+            <h4>Berta Emili</h4>
+            <span><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>  
+            </span>
+          </div>
+          <div class="swiper-slide">
+            <p>Great quality products, affordable prices, fast and  friendly delivery. I very recommend</p>
+            <h4>Tiana Abie</h4>
+            <span><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>  
+            </span>
+          </div>
+          <div class="swiper-slide">
+            <p>Great quality products, affordable prices, fast and  friendly delivery. I very recommend</p>
+            <h4>Lennie Swiffan</h4>
+            <span><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>  
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="good-news-photo-bottom">
+        <img src="images/good-news/image (3).webp" alt="">
+        <img src="images/good-news/image (4).webp" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer  -->
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-card">
+          <ul>
+            <li><a href=""><img src="images/logo.14d0e71d.svg" alt=""></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook"></i> <span>Facebook</span></a></li>
+            <li><a href=""><i class="fa-brands fa-youtube"></i> <span>Youtube</span></a></li>
+            <li><a href=""><i class="fa-brands fa-telegram"></i> <span>Telegram</span></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i> <span>Twitter</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <ul>
+            <li><a href="">Getting started</a></li>
+            <li><a href="">Release Notes</a></li>
+            <li><a href="">Upgrade guide</a></li>
+            <li><a href="">Browser Support</a></li>
+            <li><a href="">Dark mode</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <ul>
+            <li><a href="">Explore</a></li>
+            <li><a href="">Prototyping</a></li>
+            <li><a href="">Design systems</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Security</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <ul>
+            <li><a href="">Resource</a></li>
+            <li><a href="">Best Practices</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Learn Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <ul>
+            <li><a href="">Community</a></li>
+            <li><a href="">Discussion Forums</a></li>
+            <li><a href="">Code of conduct</a></li>
+            <li><a href="">Contributing</a></li>
+            <li><a href="">API reference</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script> 
+        <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
     </main>
 </body>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./ciseco.js"></script> -->
+<script src='https://cdn.tailwindcss.com'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css'></script> -->
+<script  src="./ciseco.js"></script>
 </html>
